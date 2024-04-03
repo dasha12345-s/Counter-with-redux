@@ -5,7 +5,7 @@ export const INCREMENT = 'increment'
 
 const initialState = {counter: 0, showCounter: true };
 
-createSlice({
+const counerSlice = createSlice({
   name: 'counterToolkit',
   initialState,
   reducers: {
